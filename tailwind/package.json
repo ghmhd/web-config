@@ -1,0 +1,13 @@
+{
+  "name": "tailwind-starter",
+  "version": "1.0.0",
+  "scripts": {
+    "watch:tailwind": "postcss src/scss/index.scss -o static/global.css -w",
+    "build:tailwind": "NODE_ENV=production postcss src/scss/index.scss -o static/global.css",
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.7.6",
+    "postcss-cli": "^7.1.1",
+    "tailwindcss": "^1.4.5"
+  },
+}

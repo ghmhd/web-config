@@ -1,0 +1,26 @@
+/*
+	external dependecies css and js
+	<script src="https://code.iconify.design/1/1.0.4/iconify.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&display=swap" rel="stylesheet">
+ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  /*
+   variables declaration example
+    --name-of-the-variable: value;
+    the name must begin with `--`
+   */
+    --main-text-color: #5D5C5C;
+    --body-bg-color: #F6F6F6;
+    --separator-color: #E5E5E5;
+    --primary-color: #23A5F6;
+    --secondary-text-color: #878787;
+    --secondary-color: #63C6F8;
+    --danger-color: #FA423B;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
